@@ -49,6 +49,7 @@
     <Compile Include="datatype2.cs" />
     <Compile Include="datatype1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="varand dynamic.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
