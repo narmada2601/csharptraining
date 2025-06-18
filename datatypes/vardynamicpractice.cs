@@ -31,6 +31,8 @@
         value = "hello";
         Console.WriteLine(value.ToUpper());
 
+        string input = "****welcome***";
+        Console.WriteLine(input.Remove(1,4));
 
 
         //lets take example of both var and dynamic
