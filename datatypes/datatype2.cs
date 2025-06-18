@@ -53,28 +53,28 @@ class datatype2
 
         
 
-        Console.WriteLine("Checking the performance");
-          Stopwatch stopwatch1 = new Stopwatch();
-        stopwatch1.Start();
-        for (int i = 0; i < 1000000; i++)
-        {
-            short s1 = 100;
-            short s2 = 100;
-            short s3 = 100;
-        }
-        stopwatch1.Stop();
-        Console.WriteLine($"short took : {stopwatch1.ElapsedMilliseconds} MS");
-        Stopwatch stopwatch2= new Stopwatch();
-        stopwatch2.Start();
-        for (int i = 0; i < 1000000; i++)
-        {
-            decimal d1 = 100;
-            decimal d2 = 100;
-            decimal d3 = 100;
-        }
-        stopwatch1.Stop();
-        Console.WriteLine($"Decimal took : {stopwatch2.ElapsedMilliseconds} MS");
-        Console.ReadKey();
+        //Console.WriteLine("Checking the performance");
+        //  Stopwatch stopwatch1 = new Stopwatch();
+        //stopwatch1.Start();
+        //for (int i = 0; i < 1000000; i++)
+        //{
+        //    short s1 = 100;
+        //    short s2 = 100;
+        //    short s3 = 100;
+        //}
+        //stopwatch1.Stop();
+        //Console.WriteLine($"short took : {stopwatch1.ElapsedMilliseconds} MS");
+        //Stopwatch stopwatch2= new Stopwatch();
+        //stopwatch2.Start();
+        //for (int i = 0; i < 1000000; i++)
+        //{
+        //    decimal d1 = 100;
+        //    decimal d2 = 100;
+        //    decimal d3 = 100;
+        //}
+        //stopwatch1.Stop();
+        //Console.WriteLine($"Decimal took : {stopwatch2.ElapsedMilliseconds} MS");
+        //Console.ReadKey();
         //here short took 1msec and decimal took 3 msec.
 
 

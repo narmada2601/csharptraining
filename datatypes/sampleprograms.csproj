@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>datatype2</StartupObject>
+    <StartupObject>vardynamicpractice</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,8 +48,10 @@
   <ItemGroup>
     <Compile Include="datatype2.cs" />
     <Compile Include="datatype1.cs" />
+    <Compile Include="operatorspractice.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="varand dynamic.cs" />
+    <Compile Include="stringspractice.cs" />
+    <Compile Include="vardynamicpractice.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
