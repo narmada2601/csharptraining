@@ -1,6 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 class operatorspractice
-    {
+{
     static void Main()
     {
         ////        int Result;
@@ -59,14 +60,43 @@ class operatorspractice
         //logical operators
         bool hasTicket = true;
         bool isVIP = false;
-        bool canEnter = hasTicket || isVIP; // true
+        bool itestand = hasTicket && isVIP;
+        Console.WriteLine("person has ticket" + itestand);//when both are true so o/p is false
+        bool canEnter = hasTicket || isVIP; // true execute when any one condition is true
         Console.WriteLine("person has ticket" + canEnter);
         //ternary operator
         int marks = 45;
         string result = (marks >= 50) ? "Pass" : "Fail";
         Console.WriteLine("result" + result);//pass
+        //assignment operator
+        int booksCount = 10;
+        booksCount += 5;
+        Console.WriteLine("we are using assignment operator" + booksCount);
 
+        //Null-Coalescing Operator---this operator assigns a value only if the variable is null.
 
+        string playwood = null;
+
+        string displayName = playwood ?? "pvc";
+        Console.WriteLine("the playwood we are using is " + displayName);
+
+        //ternary operator--same as if else
+        int x = 10, y = 5;
+        string result1 = (x > y) ? "x" : "y";
+        Console.WriteLine("  greater value is" + result1);
+
+        int[] numbers = new int[10];
+        Console.WriteLine(numbers);//system.int32
+
+        string[] messages = new string[10];
+        Console.WriteLine(messages);
+
+        int num = 1, z = 5;
+
+        if (!(num <= 0))
+            Console.WriteLine(++num + z++ + " " + ++z);
+        else
+            Console.WriteLine(--num + z-- + " " + --z);//7 7
     }
 }
 

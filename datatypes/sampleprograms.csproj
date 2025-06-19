@@ -51,6 +51,7 @@
     <Compile Include="operatorspractice.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="stringspractice.cs" />
+    <Compile Include="typeConversions.cs" />
     <Compile Include="usingStringMethods.cs" />
     <Compile Include="vardynamicpractice.cs" />
   </ItemGroup>
