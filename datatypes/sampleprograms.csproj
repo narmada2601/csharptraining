@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>usingStringMethods</StartupObject>
+    <StartupObject>switchcoffeeshop</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,12 +46,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="arraymethods1.cs" />
+    <Compile Include="arraysIntro.cs" />
     <Compile Include="datatype2.cs" />
     <Compile Include="datatype1.cs" />
+    <Compile Include="looping.cs" />
     <Compile Include="operatorspractice.cs" />
+    <Compile Include="programusingarrays.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="stringFormating.cs" />
     <Compile Include="stringspractice.cs" />
+    <Compile Include="switchcoffeeshop.cs" />
     <Compile Include="typeConversions.cs" />
+    <Compile Include="usingStringBuilder.cs" />
     <Compile Include="usingStringMethods.cs" />
     <Compile Include="vardynamicpractice.cs" />
   </ItemGroup>
