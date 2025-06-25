@@ -62,7 +62,7 @@ class switchcoffeeshop
                
                 //Console.WriteLine("\nPress any key to return to the menu...");
                 //Console.ReadKey();
-                receipt += $"{item} - ₹{price}\n";
+                receipt += $"{item} - ${price}\n";
                 total = total+price;
                 Console.WriteLine($"Added {item} to your order.");
                 Console.WriteLine("Press any key to continue...");
@@ -72,7 +72,7 @@ class switchcoffeeshop
         Console.Clear();
         Console.WriteLine("=== Your Receipt ===");
         Console.WriteLine(receipt);
-        Console.WriteLine($"Total: ₹{total:F2}");//fixed pint to two variables
+        Console.WriteLine($"Total: ${total:F2}");//fixed pint to two variables
         
 
 

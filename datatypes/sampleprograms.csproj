@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>switchcoffeeshop</StartupObject>
+    <StartupObject>notesdivide</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -51,6 +51,8 @@
     <Compile Include="datatype2.cs" />
     <Compile Include="datatype1.cs" />
     <Compile Include="looping.cs" />
+    <Compile Include="moneycounting.cs" />
+    <Compile Include="notesdivide.cs" />
     <Compile Include="operatorspractice.cs" />
     <Compile Include="programusingarrays.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
