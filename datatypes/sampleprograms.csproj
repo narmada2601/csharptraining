@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>notesdivide</StartupObject>
+    <StartupObject>methodwithparam</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,9 +48,13 @@
   <ItemGroup>
     <Compile Include="arraymethods1.cs" />
     <Compile Include="arraysIntro.cs" />
+    <Compile Include="Conditionalstmt.cs" />
     <Compile Include="datatype2.cs" />
     <Compile Include="datatype1.cs" />
     <Compile Include="looping.cs" />
+    <Compile Include="methods\Callingmethod.cs" />
+    <Compile Include="methods\methodwithparam.cs" />
+    <Compile Include="methods\withreturntype.cs" />
     <Compile Include="moneycounting.cs" />
     <Compile Include="notesdivide.cs" />
     <Compile Include="operatorspractice.cs" />
