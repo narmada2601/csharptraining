@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>methodwithparam</StartupObject>
+    <StartupObject>task1Methods</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -56,6 +56,7 @@
     <Compile Include="methods\methodwithparam.cs" />
     <Compile Include="methods\withreturntype.cs" />
     <Compile Include="moneycounting.cs" />
+    <Compile Include="myApplications\movieBooking.cs" />
     <Compile Include="notesdivide.cs" />
     <Compile Include="operatorspractice.cs" />
     <Compile Include="programusingarrays.cs" />
@@ -63,6 +64,8 @@
     <Compile Include="stringFormating.cs" />
     <Compile Include="stringspractice.cs" />
     <Compile Include="switchcoffeeshop.cs" />
+    <Compile Include="task1.cs" />
+    <Compile Include="task1Methods.cs" />
     <Compile Include="typeConversions.cs" />
     <Compile Include="usingStringBuilder.cs" />
     <Compile Include="usingStringMethods.cs" />
