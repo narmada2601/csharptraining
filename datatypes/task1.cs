@@ -20,7 +20,7 @@ class task1
         {
             Console.WriteLine(" Employees names are not equal");//not equal
         }
-        //To check employee names starts with "j" in the array
+        //To check employee names starts with "j" in the array 
         foreach (string names in empNames)
         {
             if (names.StartsWith("j"))
